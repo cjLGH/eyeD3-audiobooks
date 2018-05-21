@@ -22,7 +22,7 @@ album_artist = unicode(album_artist, "utf-8")
 
 title = ''
 while not title:
-  title = raw_input("Title: ")
+  title = raw_input("title: ")
 title = str(title)
 title = unicode(title, "utf-8")
 
