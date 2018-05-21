@@ -5,26 +5,26 @@ import eyed3
 artist = ''
 while not artist:
   artist = raw_input("artist: ")
-  artist = str(artist)
-  artist = unicode(artist, "utf-8")
+artist = str(artist)
+artist = unicode(artist, "utf-8")
 
 album = ''
 while not album:
   album = raw_input("album: ")
-  album = str(album)
-  album = unicode(album, "utf-8")
+album = str(album)
+album = unicode(album, "utf-8")
 
 album_artist = ''
 while not album_artist:
   album_artist = raw_input("album_artist: ")
-  album_artist = str(album_artist)
-  album_artist = unicode(album_artist, "utf-8")
+album_artist = str(album_artist)
+album_artist = unicode(album_artist, "utf-8")
 
 title = ''
 while not title:
   title = raw_input("Title: ")
-  title = str(title)
-  title = unicode(title, "utf-8")
+title = str(title)
+title = unicode(title, "utf-8")
 
 genre = ''
 while not genre:
